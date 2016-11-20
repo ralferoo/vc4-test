@@ -7,7 +7,7 @@ alpha.bin comes from https://dl.dropbox.com/u/3669512/temp/alpha.bin
 The disassembly of the original mostly proceeds well, except that the 65535
 constant is too big for the assembler to accept, although it's OK with -1.
 
-The opcodes are very different from the original (see alpha.txt)
+The opcodes are very different from the original (see alpha.notes)
 
 BUG: the disassembly looks similar to the original, but the opcodes are
 slightly different (see alpha.txt). However, feeding them back into gas
